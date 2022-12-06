@@ -1,0 +1,293 @@
+.vbody {
+    margin: 3% 25% 3% 25%;
+}
+
+img {
+    box-shadow: 0px 0px 16px 8px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    font-size: 26pt;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+body {
+    background: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    align-items: center;
+    box-shadow: inset 50px 50px 250px 250px rgba(0, 19, 19, 0.7);
+
+}
+
+* {
+    color: rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    text-shadow: 2px 0 2px #000,
+        0 2px 2px #000,
+        -2px 0 2px #000,
+        0 -2px 2px #000,
+        3px 3px 10px #000;
+    font-family: 'Press Start 2P';
+}
+
+header {
+    background: url(img/header.png);
+    padding: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 0 -5px 15px 8px rgba(0, 0, 0, 0.6),
+        inset 5px 5px 60px 15px rgba(0, 0, 0, 1);
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+#CName {
+    font-size: 28pt;
+}
+
+a {
+    text-decoration: none;
+}
+
+.description {
+    overflow: hidden;
+    box-shadow: 0px 0px 24px 16px rgba(0, 0, 0, 0.8);
+}
+
+.description img {
+    width: calc(1920px/4);
+    height: calc(1080px/4);
+    object-fit: cover;
+    object-position: 0 70;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.description h2 {
+    margin: 10px;
+}
+
+.description p {
+    overflow-wrap: normal;
+    word-wrap: normal;
+    word-break: normal;
+    line-break: auto;
+
+    padding: 10px;
+    margin-left: 15px;
+    display: block;
+    font-size: 18px;
+    margin: 2px 0 0 0;
+    line-height: 130%;
+}
+
+.harakteristiki {
+    padding: 10% 0 10% 0;
+    background-image: url(img/doskatipo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.harakteristiki h2,
+.files h2 {
+    margin-bottom: -5px;
+    font-size: 16pt;
+}
+
+.harakteristiki h2,
+.harakteristiki ul {
+    padding-left: 15%;
+    padding-right: 10%;
+}
+
+.harakteristiki h2,
+.harakteristiki ul li {
+    color: #000;
+    text-shadow: none;
+    margin: 1%;
+    line-height: 130%;
+}
+
+.files {
+    padding: 10% 0 10% 0;
+    background-image: url(img/doskatipo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.files h2,
+.files ul {
+    padding-left: 15%;
+    padding-right: 10%;
+}
+
+.files h2,
+.files ul li,
+.files ul li a {
+    color: #000;
+    text-shadow: none;
+    margin: 1%;
+    line-height: 130%;
+}
+
+#setup {
+    text-align: right;
+    
+}
+
+#setupbutton {
+    height: 60px;
+    width: 180px;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    background-image: url(img/SetupButton.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 100% 100%;
+    color: #000;
+    text-shadow: none;
+    font-size: 18px;
+}
+
+#setupbutton:hover {
+    opacity: 0.85;
+    transition: 0.6s;
+}
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 32px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 26px;
+    padding: 12px 16px;
+    position: absolute;
+    letter-spacing: -10px;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #999999;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #111111;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+footer {
+    height: 40px;
+    width: 40px;
+    color: #000;
+}
